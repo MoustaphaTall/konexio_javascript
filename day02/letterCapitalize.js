@@ -1,7 +1,7 @@
 function letterCapitalize(sentence) {
     sentence = sentence.split(" "); //[mot1, mot2, mot3...]
     for (var i = 0; i < sentence.length; i++) {
-        sentence[i] = sentence[i].substring(0, 1).toUpperCase() + sentence[i].substring(1, sentence[i].length);
+        sentence[i] = sentence[i].substring(0, 1).toUpperCase() + sentence[i].substring(1, sentence[i].length).toLowerCase();
     }
     console.log(sentence.join(" "));
 }
