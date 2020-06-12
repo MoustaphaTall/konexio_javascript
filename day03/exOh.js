@@ -22,9 +22,3 @@ function exOh(str) {
 }
 
 console.log(exOh("xoxoxooxoxo"));
-
-var arr = []; for (var i = 0; i < 20; i += 2) { arr.push(i); }
-console.log(arr);
-
-var name = "Tony"; console.log('Hello' + name + ' , how are you ?')
-var foo = 3.14; console.log(typeof foo);
