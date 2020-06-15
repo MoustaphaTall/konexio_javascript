@@ -1,11 +1,6 @@
 function wordCount(str) {
     str = str.split(' ');
-    var count = 0;
-
-    for (var i = 0; i < str.length; i++) {
-        count++;
-    }
-    return count;
+    return str.length;
 }
 
 console.log(wordCount("never eat shredded wheat or cake"));
