@@ -5,4 +5,4 @@ function timeConvert(num) {
     return hours + ":" + minutes + ":" + restSeconds;
 }
 
-console.log(timeConvert(86401));
+console.log(timeConvert(3700));
