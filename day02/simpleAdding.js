@@ -6,4 +6,4 @@ function simpleAdding(num) {
     console.log(add);
 }
 
-simpleAdding(140);
+simpleAdding(1000);

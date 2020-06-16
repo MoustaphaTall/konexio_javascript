@@ -27,6 +27,10 @@ function doop(int1, operator, int2, forbiddenInt) {
         //     return "not in the pool of operators"; (si erreur dans les caract spéciaux)
     }
 
+    if (result === null) {
+        return "error";
+    }
+
     return result;
 }
 
