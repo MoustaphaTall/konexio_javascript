@@ -6,4 +6,4 @@ function firstFactorial(num) {
     console.log(fact);
 }
 
-firstFactorial(8);
+firstFactorial(4);
