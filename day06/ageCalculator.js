@@ -1,5 +1,5 @@
 function ageCalculator(date) {
-    dateMilli = new Date(date).getTime();
+    var dateMilli = new Date(date).getTime();
     var todayMilli = new Date().getTime();
     var todayAge = todayMilli / 31536000000;
     var age = todayAge - (dateMilli / 31536000000);

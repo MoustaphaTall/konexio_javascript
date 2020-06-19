@@ -1,9 +1,11 @@
-function doop(int1, operator, int2, forbiddenInt) {
+function doop(int1, operator, int2) {
     var result = null;
     int1 = parseInt(int1);
     int2 = parseInt(int2);
 
-    if (forbiddenInt) {
+    if (operator === "/" && typeof int2 === 0) {
+        return "error, division by 0";
+    } else if (int1 === undefined || int2 === undefined) {
         return "error";
     }
 
