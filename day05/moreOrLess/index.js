@@ -25,7 +25,6 @@ function moreOrLess(number) {
             if (err) { return onErr(err); }
             // console.log(random)
             moreOrLess(result.number);
-
         });
     } else if (number < random) {
         console.log("C'est plus !");
