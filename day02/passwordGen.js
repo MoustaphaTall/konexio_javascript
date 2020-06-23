@@ -12,4 +12,4 @@ function passwordGen(num) {
     }
 }
 
-console.log(passwordGen(16));
+console.log(passwordGen(3));

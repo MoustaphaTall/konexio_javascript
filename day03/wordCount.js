@@ -1,6 +1,13 @@
 function wordCount(str) {
-    str = str.split(' ');
-    return str.length;
+    arr = str.split(' ');
+    var arrLength = arr.length;
+
+    for (var i = 0; i < arr.length; i++) {
+        if (arr[i] === "") {
+            arrLength--;
+        }
+    }
+    return arrLength;
 }
 
-console.log(wordCount("never eat shredded wheat or cake"));
+console.log(wordCount("hello world "));

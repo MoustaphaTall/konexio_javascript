@@ -13,8 +13,8 @@ function letterCountRepeat(str) {
                 counts[currentCharacter] = 1;
             }
         }
-
     }
+    console.log(arrCounts);
     return counts;
     /* Il reste à retourner le mot qui a le plus de lettres répétées,
 et à retourner -1 pour les mots dont counts[currentCharacter] > 1 === false; */

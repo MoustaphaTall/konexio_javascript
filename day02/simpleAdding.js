@@ -3,7 +3,7 @@ function simpleAdding(num) {
     for (var i = 1; i <= num; i++) {
         add += i;
     }
-    console.log(add);
+    return add;
 }
 
-simpleAdding(1000);
+console.log(simpleAdding(4));

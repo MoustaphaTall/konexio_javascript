@@ -1,7 +1,7 @@
 function vowelCount(str) {
     var vowels = ["a", "e", "i", "o", "u", "y"];
     var count = 0;
-    for (var i = str.length; i > 0; i--) {
+    for (var i = str.length - 1; i >= 0; i--) {
         if (vowels.indexOf(str.charAt(i).toLowerCase()) > -1) {
             count++;
         }
@@ -10,4 +10,4 @@ function vowelCount(str) {
 
 }
 
-console.log(vowelCount("Hello"));
+console.log(vowelCount("abcdef"));

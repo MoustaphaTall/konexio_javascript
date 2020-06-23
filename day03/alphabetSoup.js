@@ -4,4 +4,4 @@ function alphabetSoup(str) {
     return str;
 }
 
-console.log(alphabetSoup("hooplah"));
+console.log(alphabetSoup("Konexio"));

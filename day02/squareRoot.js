@@ -7,3 +7,5 @@ function squareRoot(num) {
 
     return 0;
 }
+
+console.log(squareRoot(9));

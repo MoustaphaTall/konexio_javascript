@@ -3,10 +3,10 @@ function letterCapitalize(sentence) {
     for (var i = 0; i < sentence.length; i++) {
         sentence[i] = sentence[i].substring(0, 1).toUpperCase() + sentence[i].substring(1, sentence[i].length).toLowerCase();
     }
-    console.log(sentence.join(" "));
+    return sentence.join(" ");
 }
 
-letterCapitalize("what a wonderful world");
+console.log(letterCapitalize("what a wonderful world"));
 
 
 /* Alternative avec replace

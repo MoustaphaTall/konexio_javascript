@@ -1,4 +1,4 @@
-function palindrome(str) {
+function isPalindrome(str) {
     str = str.split('');
     var strNospace = [];
     var strReverse = [];
@@ -27,4 +27,4 @@ function palindrome(str) {
     return strNospace === strReverse;
 }
 
-console.log(palindrome("never odd or even"));
+console.log(isPalindrome("never odd or even"));

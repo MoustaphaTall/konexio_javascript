@@ -1,3 +1,3 @@
 var n = 256;
 n = n.toString();
-console.log(n.length);
+console.log(n);

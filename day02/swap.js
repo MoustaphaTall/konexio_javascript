@@ -6,7 +6,7 @@ function swap(var1, var2) {
     return arr;
 }
 
-console.log("méthode array", swap(25, 35));
+console.log("méthode array", swap('A', 35));
 
 //Avec une assignation
 function swap(var1, var2) {
@@ -14,7 +14,6 @@ function swap(var1, var2) {
     var2 = var1;
     var1 = var3;
     var arr = [var1, var2];
-    return arr;
 }
 
 console.log("méthode assignation", swap(25, 35));
