@@ -9,13 +9,19 @@ var schema = {
         },
         password: {
             pattern: /(?=.*[a-z])(?=.*\d)[a-z\d,.-]{6,}/gi,
-            message: "must contain at least 6 characters, a letter and a digit",
+            message: "Must contain at least 6 characters, a letter and a digit",
             description: "Enter your password :",
             hidden: true,
             replace: '*',
             required: true
         },
-        //reste à créer la clé email avec son pattern
+        email: {
+            pattern: /(?=.*[a-z])(?=.*@)(?=.*[.])[a-z\d,.@-]{1,}/gi,
+            message: "Enter a valid email adress",
+            description: "Enter your email",
+            required: true
+
+        }
     }
 };
 
