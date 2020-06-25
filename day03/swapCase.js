@@ -5,7 +5,7 @@ function swapCase(str) {
             continue;
         } else if (str[i] === str[i].toUpperCase()) {
             str[i] = str[i].toLowerCase();
-        } else {
+        } else if (str[i] === str[i].toLowerCase()) {
             str[i] = str[i].toUpperCase();
         }
     }

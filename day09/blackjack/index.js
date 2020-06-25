@@ -10,7 +10,7 @@ var schema = {
             // pattern: /(?=.*y)[yes]{1,}|(?=.*n)[no]{1,}/gi,
             pattern: /^[yes]+|[no]+$/,
             message: "Yes or no? Pick a choice!",
-            description: "Card ? (type 'y' or 'yes' for a new card",
+            description: "Card ? (type 'y' or 'yes' for a new card)",
             required: true
         }
     }
